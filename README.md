@@ -1,6 +1,6 @@
 # npmtest-command-line-args
 
-#### test coverage for  [command-line-args (v4.0.2)](https://github.com/75lb/command-line-args#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-command-line-args.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-command-line-args) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-command-line-args.svg)](https://travis-ci.org/npmtest/node-npmtest-command-line-args)
+#### basic test coverage for  [command-line-args (v4.0.3)](https://github.com/75lb/command-line-args#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-command-line-args.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-command-line-args) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-command-line-args.svg)](https://travis-ci.org/npmtest/node-npmtest-command-line-args)
 
 #### A mature, feature-complete library to parse command-line options.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-command-line-args/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-command-line-args/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-command-line-args/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-command-line-args/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-command-line-args/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-command-line-args/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-command-line-args/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-command-line-args/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-command-line-args/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-command-line-args/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-command-line-args/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-command-line-args/build/coverage.html/index.html)
 
@@ -51,16 +51,16 @@
     },
     "description": "A mature, feature-complete library to parse command-line options.",
     "devDependencies": {
-        "coveralls": "^2.11.15",
-        "jsdoc-to-markdown": "^2.0.1",
+        "coveralls": "^2.13.0",
+        "jsdoc-to-markdown": "^3.0.0",
         "test-runner": "^0.3.0"
     },
     "directories": {},
     "dist": {
-        "shasum": "a99c2f28ceabcf26ac56d38e78b600ea3b57e650",
-        "tarball": "https://registry.npmjs.org/command-line-args/-/command-line-args-4.0.2.tgz"
+        "shasum": "aefb061f107f0fd8d72b3c5e0ba042b319891bae",
+        "tarball": "https://registry.npmjs.org/command-line-args/-/command-line-args-4.0.3.tgz"
     },
-    "gitHead": "3ccb02809c295d1fb31996c05dedfa85ebbdcc88",
+    "gitHead": "f2c3d06ab7b782c6656e8dba827b0455f8f5f1ca",
     "homepage": "https://github.com/75lb/command-line-args#readme",
     "keywords": [
         "argv",
@@ -93,7 +93,7 @@
         "docs": "jsdoc2md -l off -t jsdoc2md/README.hbs lib/*.js > README.md; echo",
         "test": "test-runner test/*.js"
     },
-    "version": "4.0.2"
+    "version": "4.0.3"
 }
 ```
 

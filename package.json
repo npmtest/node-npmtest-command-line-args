@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [command-line-args (v4.0.2)](https://github.com/75lb/command-line-args#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-command-line-args.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-command-line-args) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-command-line-args.svg)](https://travis-ci.org/npmtest/node-npmtest-command-line-args)",
+    "description": "#### basic test coverage for  [command-line-args (v4.0.3)](https://github.com/75lb/command-line-args#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-command-line-args.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-command-line-args) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-command-line-args.svg)](https://travis-ci.org/npmtest/node-npmtest-command-line-args)",
     "devDependencies": {
         "command-line-args": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
